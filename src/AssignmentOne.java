@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class AssignmentOne {
     public static void main(String[] args) {
-        // Part 3 – Using classes and objects
+        
         GeneralPractitioner gp1 = new GeneralPractitioner(1, "Dr. Linn", "General Practice", "Southport Clinic");
         GeneralPractitioner gp2 = new GeneralPractitioner(2, "Dr. Joon", "General Practice", "Gold Coast Clinic");
         GeneralPractitioner gp3 = new GeneralPractitioner(3, "Dr. Brrow", "General Practice", "Brisbane Clinic");
@@ -17,7 +17,7 @@ public class AssignmentOne {
         dt1.printDetails();
         dt2.printDetails();
 
-        // Part 5 – Collection of appointments
+        
         ArrayList<Appointment> appointments = new ArrayList<>();
 
         // 创建新的预约

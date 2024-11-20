@@ -20,7 +20,7 @@ public class GeneralPractitioner extends HealthProfessional {
         this.clinic = clinic;
     }
 
-    // 打印健康专业人士详情的方法
+    // 打印详情的方法
     @Override
     public void printDetails() {
         super.printDetails();

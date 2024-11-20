@@ -39,7 +39,7 @@ public class HealthProfessional {
         this.specialization = specialization;
     }
 
-    // 打印所有实例变量的方法
+   
     public void printDetails() {
         System.out.println("Health Professional ID: " + id);
         System.out.println("Name: " + name);
