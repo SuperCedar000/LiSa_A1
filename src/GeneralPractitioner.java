@@ -6,7 +6,9 @@ public class GeneralPractitioner extends HealthProfessional {
     private String clinic;
 
     // 默认构造函数
-    public GeneralPractitioner() {}
+    public GeneralPractitioner() {
+        // 如果需要，默认构造函数可以初始化一些默认值
+    }
 
     // 参数化构造函数
     public GeneralPractitioner(int id, String name, String specialization, String clinic) {
@@ -27,6 +29,6 @@ public class GeneralPractitioner extends HealthProfessional {
     @Override
     public void printDetails() {
         super.printDetails();
-        System.out.println("Clinic: " + clinic);
+        System.out.println("Clinic: " + getClinic());
     }
 }
