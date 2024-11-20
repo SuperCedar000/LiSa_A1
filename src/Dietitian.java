@@ -1,29 +1,28 @@
-public class Dietitian extends HealthProfessional {
-    // 额外的实例变量
-    private String certification;
+public class GeneralPractitioner extends HealthProfessio    private String clinic;
 
-    // 默认构造函数
-    public Dietitian() {}
 
-    // 参数化构造函数
-    public Dietitian(int id, String name, String specialization, String certification) {
+    public GeneralPractitioner() {
+      
+    }
+
+
+    public GeneralPractitioner(int id, String name, String specialization, String clinic) {
         super(id, name, specialization);
-        this.certification = certification;
+        this.clinic = clinic;
     }
 
-    // 获取器和设置器
-    public String getCertification() {
-        return certification;
+    public String getClinic() {
+        return clinic;
     }
 
-    public void setCertification(String certification) {
-        this.certification = certification;
+    public void setClinic(String clinic) {
+        this.clinic = clinic;
     }
 
-    // 打印健康专业人士详情的方法
+
     @Override
     public void printDetails() {
         super.printDetails();
-        System.out.println("Certification: " + certification);
+        System.out.println("Clinic: " + getClinic());
     }
 }
