@@ -26,7 +26,7 @@ public class AssignmentOne {
         createAppointment(appointments, "Miim Biyn", "15050323210", "14:20", gp2);
         createAppointment(appointments, "Sopah Gobn", "13876531221", "16:55", dt2);
 
-        // 打印现有预约
+        // 打印预约
         printExistingAppointments(appointments);
 
         // 取消一个预约
